@@ -1,0 +1,11 @@
+
+# Archivos compilados
+*.class
+bin/
+
+# Credenciales y configuración privada
+config.properties
+.env
+
+# Archivos temporales
+*.log
