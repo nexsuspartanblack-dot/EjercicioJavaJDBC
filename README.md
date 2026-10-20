@@ -53,3 +53,13 @@ Las credenciales de conexión se configuran localmente en `config.properties`. E
 ## 8. Control de versiones
 
 El proyecto utiliza Git para registrar las versiones y los cambios realizados durante el desarrollo.
+
+## 9. Preparacion de la conexion
+
+1. Ejecutar el archivo `database.sql` en MySQL Workbench para crear la base de datos y la tabla.
+2. Copiar el archivo `config.properties.example` y crear una copia llamada `config.properties`.
+3. Abrir `config.properties` e ingresar el usuario y la contraseña propios de MySQL.
+4. Verificar que Java y MySQL Server estén instalados.
+5. Abrir el proyecto en Visual Studio Code.
+
+**Importante:** el archivo `config.properties` contiene credenciales privadas y no debe publicarse en el repositorio.
